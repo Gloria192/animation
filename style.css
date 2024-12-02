@@ -18,7 +18,7 @@ body{
     color:var(--text-color) ;
 }
 header{
-    position: fixed;
+    position: fixed; 
     width:100%;
     top:0;
     right:0;
@@ -38,7 +38,7 @@ header{
 }
 .navlist a{
     display: inline-block;
-    margin: 0.35px;
+    margin: 0 35px;
     color:var(--text-color);
     font-size: var(--p-font);
     transition: all .6s ease;
@@ -126,4 +126,20 @@ margin-bottom: 40px;
    font-weight: 500;
    transition: all.6s ease;  
    margin-right:20px ;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.price{
+    display: flex;
+    align-items:center;
+    font-size: 28px;
+    font-weight: bolder;
+    color:var(--text-color);
+}
+.price span{
+     font-size: 17px;
+     font-weight: 400;
+     color:var(--main-color); 
+     margin-left: 10px;
 }
