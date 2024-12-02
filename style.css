@@ -29,7 +29,7 @@ header{
     justify-content: space-between;
     transition: all.50s;
 }
-.logo{
+.logo img{
     width: 100%;
     height: auto;
 }
@@ -54,11 +54,12 @@ color: var(--main-color );
 .nav-btn{
     display: inline-block;
     padding: 9px 24px;
-    background:transparent;
+    background:transparent; 
     border:2px solid var(--text-color);
-    border-radius: 15px;
-    font-weight: 500;
-    transition: all.6s ease;
+    border-radius: 7px;
+    font-weight:   500;
+    font-size: 15px;
+    transition: all.6s ease;  
 
 }
 .nav-btn:hover{
