@@ -73,3 +73,6 @@ color: var(--main-color );
     margin-left: 25px;
     display: none;
    }
+   section{
+    padding: 0 14%;
+   }
